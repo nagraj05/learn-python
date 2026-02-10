@@ -1,3 +1,5 @@
+from select import select
+
 message = "test"
 print(message)
 print(len(message))
