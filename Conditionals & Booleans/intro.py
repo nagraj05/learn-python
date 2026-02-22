@@ -30,7 +30,14 @@ is_loggedin = True
 # else:
 #     print("Invalid Credentials")
 
-if not is_loggedin:
-    print("Please log in")
-else:
-    print("Bad credentials")
+# if not is_loggedin:
+#     print("Please log in")
+# else:
+#     print("Bad credentials")
+
+
+a = [1,2,3]
+b= [1,2,3]
+print (id(a))
+print(id(b))
+print(a is b)
